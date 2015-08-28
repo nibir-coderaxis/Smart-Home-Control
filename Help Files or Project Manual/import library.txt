@@ -1,0 +1,1 @@
+please download and import jSSC-2.8.0 (Java Simple Serial Connector) library to the project

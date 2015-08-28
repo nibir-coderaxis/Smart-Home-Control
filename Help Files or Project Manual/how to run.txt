@@ -1,0 +1,48 @@
+#####WebApplication:
+
+Step1: Our Website Application named "WebApplication" is located in "Smart Room Project Code >> Web Application Code >> WebApplication" folder.
+       Please copy this project "WebApplication" to you C drive so that the new location for this web application will be "C:\WebApplication"
+	   *** This is mandatory as we are using text file to save some user information
+
+Step2: Now you need to start Tomcat server before opening the web application 
+
+Step3: After starting Tomcat server, Please open "WebApplication" project from you C drive using NetBeans IDE
+
+Step4: Now Run the "WebApplication" project. You will have a login page.
+       Give Username: user1
+	        Password: user1
+		
+       After login you can see the home page for user1 where user1 can see his/her home electric devices running status.
+	   You can control the devices from this page.
+
+
+#####Desktop Software Application:	   
+
+Step5: Our Desktop Software Application named "JavaFXApplicationSmartRoom" is located in "Smart Room Project Code >> Software Application Code >> JavaFXApplicationSmartRoom"
+       Just open "JavaFXApplicationSmartRoom" project using NetBeans.
+
+Step6: You may need to add "jssc" jar file in this project which is given in "Help Files or Project Manual>>jSSC-2.8.0"	 folder
+       Just add the jssc.jar file from the folder "Help Files or Project Manual>>jSSC-2.8.0"  
+
+Step7: Now Run the "JavaFXApplicationSmartRoom" application. You will have a login form.
+       Give Username: user1
+            Password: user1	
+       After login you can see a form showing the electric devices running status for user1. You can control the devices from this form.
+       The Web Application will also start receiving home devices status from the desktop application.
+
+
+***Without using any hardware configuration you can run the website and software 
+  [Without hardware/Arduino connection we are assuming all the electric devices running condition is OFF]
+
+  
+#####Hardware Arduino:
+
+Step8: You need to connect a micro-controller Arduino uno via usb port in your Desktop/Laptop Computer. For usb port we are using COM Port7 as a default port
+
+Step9: Now you have to burn the code in "SmartHome.ino" file to Arduino uno micro-controller.
+       This code is written for the circuit connection which contains three LED lights with individual switch.
+
+****** For project simulation all these hardwares are available in our collection.
+       If you have any Queries Please Contact:
+	   Mail: tazim.ndc@gmail.com
+	   Mobile: 01712717520
